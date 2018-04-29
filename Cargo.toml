@@ -1,5 +1,5 @@
 [package]
-name = "blockchain"
+name = "rusty-chain"
 version = "0.1.0"
 authors = ["Don Smith <don@antiantonym.com>"]
 
