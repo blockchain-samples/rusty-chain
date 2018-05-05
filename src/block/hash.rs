@@ -6,7 +6,7 @@ use self::bincode::{serialize};
 use self::crypto::sha2::Sha256;
 use self::crypto::digest::Digest;
 
-pub const DIFFICULTY: u8 = 3;
+pub const DIFFICULTY: u8 = 2;
 
 pub fn make(block: &Block) -> (u64, String) {
     let mut nonce: u64 = 0;
