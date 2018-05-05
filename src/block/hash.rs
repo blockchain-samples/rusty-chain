@@ -3,8 +3,8 @@ extern crate crypto;
 
 use super::Block;
 use self::bincode::{serialize};
-use self::crypto::digest::Digest;
 use self::crypto::sha2::Sha256;
+use self::crypto::digest::Digest;
 
 pub const DIFFICULTY: u8 = 2;
 
