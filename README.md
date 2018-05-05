@@ -4,15 +4,21 @@
 
 I wanted to learn the fundamentals of blockchain technology and I wanted to learn Rust. This is what I'm using to scratch these 2 iches. :wink:
 
-Currently, `src/main.rs` creates 2 blocks and verifies their validity. That's all at the moment.
-
 
 ## Setup
 
-Before you begin, you will need [Rust installed](https://www.rust-lang.org/en-US/install.html). In your terminal:
+Before you begin, you will need [Rust installed](https://www.rust-lang.org/en-US/install.html).
+
+In your terminal:
 
     git clone https://github.com/don-smith/rusty-chain.git
     cd rusty-chain && cargo run
+
+
+## Progress
+
+* Creates two linked blocks. (`src/main.rs`)
+* Uses a simple proof of work implementation. (`src/block/hash.rs`)
 
 
 ## Opportunistic documentation ;)
