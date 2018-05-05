@@ -18,7 +18,7 @@ pub fn is_valid(block: &Block) -> bool {
         index: block.index,
         timestamp: block.timestamp,
         data: block.data.clone(),
-        nonce: None, // not factored into current hash
+        nonce: block.nonce, // not factored into current hash
         difficulty: block.difficulty,
         prev_hash: block.prev_hash.clone(),
         curr_hash: None // not factored into current hash
