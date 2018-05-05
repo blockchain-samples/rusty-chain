@@ -18,6 +18,7 @@ In your terminal:
 ## Progress
 
 * Creates two linked blocks. (`src/main.rs`)
+* Verifies the hash is correct. (`src/block/mod.rs`)
 * Uses a simple proof of work implementation. (`src/block/hash.rs`)
 
 
