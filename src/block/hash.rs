@@ -47,7 +47,7 @@ pub fn make(block: &Block) -> (u64, String) {
 fn is_valid(hash: &[u8], difficulty: u8) -> bool {
     // A valid hash takes work to create. The work is creating a hash with a
     // specific number of leading zeros. This can only be done by repeatedly
-    // creating a hash with increasing nonce value until the hash has the
+    // creating a hash with an increasing nonce value until the hash has the
     // requisite number of leading zeros.
     let mut count: usize = difficulty as usize;
     let mut valid = true;
