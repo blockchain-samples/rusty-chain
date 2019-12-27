@@ -7,5 +7,5 @@ authors = ["Don Smith <don@antiantonym.com>"]
 bincode = "1.2.1"
 rust-crypto = "^0.2"
 serde = "1.0.43"
-serde_derive = "1.0.43"
+serde_derive = "1.0.104"
 time = "*"
